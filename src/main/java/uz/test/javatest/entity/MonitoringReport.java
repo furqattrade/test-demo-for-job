@@ -6,7 +6,7 @@ import lombok.NoArgsConstructor;
 import org.springframework.boot.autoconfigure.security.SecurityProperties;
 
 import javax.persistence.*;
-import java.sql.Date;
+import java.util.Date;
 import java.sql.Timestamp;
 
 @Data

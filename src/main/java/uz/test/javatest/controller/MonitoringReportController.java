@@ -26,7 +26,7 @@ public class MonitoringReportController {
 
     @PostMapping
     public HttpEntity<?> postReport(@RequestBody ReqMonitoringReport reqMonitoringReport) throws NotFoundException {
-        ResInfoAboutCurrentDebt report = monitoringReportService.createReport(reqMonitoringReport);
+            ResInfoAboutCurrentDebt report = monitoringReportService.createReport(reqMonitoringReport);
         return ResponseEntity.status(201).body(report);
     }
     @GetMapping("/{userId}")
