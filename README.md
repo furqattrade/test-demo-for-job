@@ -1,5 +1,5 @@
-**__**# test-for-job
-Paths
+
+# test-demo-for-job
 1. posting record:
 path:http://localhost/monitor
 method:POST
